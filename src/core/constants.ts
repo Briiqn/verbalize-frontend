@@ -1,0 +1,17 @@
+export const WS_PATH = '/ws/verbalize';
+export const CAMERA_EYE_HEIGHT = 1.7;
+export const INTERACT_REACH = 8.0;
+export const NPC_INTERACT_RANGE = 5.0;
+export const RECONCILE_SNAP_THRESHOLD_M = 1.5;
+export const ERROR_OFFSET_DECAY_RATE = 15.0;
+export const PENDING_INPUT_CAP = 128;
+export const COMPRESSION_MIN_BYTES = 256;
+export const HEADER_RAW = 0x00;
+export const HEADER_DEFLATE_RAW = 0x01;
+export const SNAPSHOT_INTERVAL_MS = 50.0;
+export const INTERP_DELAY_MS = 120;
+export const INTERP_EXTRAP_MAX_MS = 100;
+export const SNAPSHOT_BUFFER_CAP = 16;
+export const CLOCK_OFFSET_SMOOTHING = 0.08;
+export const AUDIO_RING_MIN_ENERGY = 0.02;
+export const PTT_CHUNK_MS = 200;

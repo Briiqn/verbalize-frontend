@@ -1,0 +1,13 @@
+# Node
+node_modules/
+dist/
+
+# Backend lives in its own repository (server-kt), plus its local config/secrets
+server-kt/
+server/
+
+# Editor / tooling
+.claude/
+
+# Logs
+*.log
